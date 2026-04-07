@@ -1,0 +1,153 @@
+{
+  "created_at": "2026-03-06",
+  "purpose": "internet benchmark for missing purchase prices (no edits applied)",
+  "rows": [
+    {
+      "model": "BYD Seagull",
+      "source_usd_range": [
+        9680,
+        12000
+      ],
+      "xlsx_usd_values": [],
+      "deviation_pct_vs_nearest_source": [],
+      "status": "missing in xlsx",
+      "source_note": "Data.CarNewsChina 2025 trims (305 Dynamic .. 405 Flying)"
+    },
+    {
+      "model": "BYD Dolphin",
+      "source_usd_range": [
+        12160,
+        17090
+      ],
+      "xlsx_usd_values": [],
+      "deviation_pct_vs_nearest_source": [],
+      "status": "missing in xlsx",
+      "source_note": "Data.CarNewsChina 2025 trims"
+    },
+    {
+      "model": "BYD Yuan Up (301km Pilot)",
+      "source_usd_range": [
+        10550,
+        10550
+      ],
+      "xlsx_usd_values": [
+        11890
+      ],
+      "deviation_pct_vs_nearest_source": [
+        12.7
+      ],
+      "status": "has local price",
+      "source_note": "Data.CarNewsChina 2025 params"
+    },
+    {
+      "model": "BYD Song Plus DM-i (112KM)",
+      "source_usd_range": [
+        18250,
+        19710
+      ],
+      "xlsx_usd_values": [
+        18800,
+        20000
+      ],
+      "deviation_pct_vs_nearest_source": [
+        3.0,
+        1.5
+      ],
+      "status": "has local price",
+      "source_note": "Data.CarNewsChina 2025 params (112KM trims)"
+    },
+    {
+      "model": "Xiaomi SU7",
+      "source_usd_range": [
+        30800,
+        44300
+      ],
+      "xlsx_usd_values": [],
+      "deviation_pct_vs_nearest_source": [],
+      "status": "missing in xlsx",
+      "source_note": "CarNewsChina current+2026 pre-sale table"
+    },
+    {
+      "model": "Zeekr 001",
+      "source_usd_range": [
+        37580,
+        47740
+      ],
+      "xlsx_usd_values": [
+        76100,
+        86600,
+        51500
+      ],
+      "deviation_pct_vs_nearest_source": [
+        59.4,
+        81.4,
+        7.9
+      ],
+      "status": "has local price",
+      "source_note": "Data.CarNewsChina 2025 trims"
+    },
+    {
+      "model": "Lixiang L6",
+      "source_usd_range": [
+        34500,
+        38700
+      ],
+      "xlsx_usd_values": [
+        37400,
+        40300
+      ],
+      "deviation_pct_vs_nearest_source": [
+        -3.4,
+        4.1
+      ],
+      "status": "has local price",
+      "source_note": "CarNewsChina launch article (L6 Pro/Max)"
+    },
+    {
+      "model": "AITO M7",
+      "source_usd_range": [
+        35060,
+        46280
+      ],
+      "xlsx_usd_values": [],
+      "deviation_pct_vs_nearest_source": [],
+      "status": "missing in xlsx",
+      "source_note": "Data.CarNewsChina 2024 params (Pro..Ultra)"
+    }
+  ],
+  "missing_models_estimates": {
+    "BYD Seagull": {
+      "estimated_fca_usd_range": [
+        10261,
+        12720
+      ],
+      "method": "source range * 1.06"
+    },
+    "BYD Dolphin": {
+      "estimated_fca_usd_range": [
+        12890,
+        18115
+      ],
+      "method": "source range * 1.06"
+    },
+    "Xiaomi SU7": {
+      "estimated_fca_usd_range": [
+        32648,
+        46958
+      ],
+      "method": "source range * 1.06"
+    },
+    "AITO M7": {
+      "estimated_fca_usd_range": [
+        37164,
+        49057
+      ],
+      "method": "source range * 1.06"
+    }
+  },
+  "calibration_factor": 1.06,
+  "caveats": [
+    "Zeekr 001 in xlsx appears materially higher than source benchmarks.",
+    "For models with many trims, exact trim matching is required for tighter +/-5% sync."
+  ]
+}

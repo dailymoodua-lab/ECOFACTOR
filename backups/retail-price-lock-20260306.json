@@ -1,0 +1,113 @@
+{
+  "source_file": "/Users/sergeybelskiy/Desktop/стоимость авто продажная .rtf",
+  "extracted_at": "2026-03-06",
+  "rule_for_base_price_usd": "min retail USD among matched variants for each model",
+  "models": {
+    "BYD Seagull": {
+      "matched": true,
+      "base_price_usd": 13197,
+      "range_usd": [
+        13197,
+        16520
+      ],
+      "base_price_uah": 587250,
+      "range_uah": [
+        587250,
+        735150
+      ],
+      "match_count": 5
+    },
+    "BYD Dolphin": {
+      "matched": true,
+      "base_price_usd": 20430,
+      "range_usd": [
+        20430,
+        22962
+      ],
+      "base_price_uah": 909150,
+      "range_uah": [
+        909150,
+        1021815
+      ],
+      "match_count": 5
+    },
+    "BYD Yuan Up": {
+      "matched": true,
+      "base_price_usd": 21007,
+      "range_usd": [
+        21007,
+        21408
+      ],
+      "base_price_uah": 934815,
+      "range_uah": [
+        934815,
+        952650
+      ],
+      "match_count": 5
+    },
+    "Xiaomi SU7": {
+      "matched": true,
+      "base_price_usd": 33715,
+      "range_usd": [
+        33715,
+        82992
+      ],
+      "base_price_uah": 1500315,
+      "range_uah": [
+        1500315,
+        3693150
+      ],
+      "match_count": 8
+    },
+    "Zeekr 001": {
+      "matched": true,
+      "base_price_usd": 44966,
+      "range_usd": [
+        44966,
+        63051
+      ],
+      "base_price_uah": 2001000,
+      "range_uah": [
+        2001000,
+        2805750
+      ],
+      "match_count": 12
+    },
+    "BYD Song Plus DM-i": {
+      "matched": true,
+      "base_price_usd": 29033,
+      "range_usd": [
+        29033,
+        29033
+      ],
+      "base_price_uah": 1291950,
+      "range_uah": [
+        1291950,
+        1291950
+      ],
+      "match_count": 1
+    },
+    "Lixiang L6": {
+      "matched": true,
+      "base_price_usd": 49561,
+      "range_usd": [
+        49561,
+        49561
+      ],
+      "base_price_uah": 2205450,
+      "range_uah": [
+        2205450,
+        2205450
+      ],
+      "match_count": 1
+    },
+    "AITO M7": {
+      "matched": false,
+      "base_price_usd": null,
+      "range_usd": null,
+      "base_price_uah": null,
+      "range_uah": null,
+      "match_count": 0
+    }
+  }
+}

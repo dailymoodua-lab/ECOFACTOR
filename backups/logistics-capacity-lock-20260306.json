@@ -1,0 +1,26 @@
+{
+  "locked_at": "2026-03-06",
+  "source": "user confirmation in chat",
+  "container_base_usd": {
+    "klaipeda": 4550,
+    "mostyska": 6300,
+    "odessa": 6800
+  },
+  "to_odessa_addon_usd": {
+    "klaipeda": 750,
+    "mostyska": 180,
+    "odessa": 0
+  },
+  "container_pricing_mode": "complex_total",
+  "capacity_rules": {
+    "default_cars_per_container": 3,
+    "overrides": {
+      "BYD Yuan Up": 4
+    },
+    "note": "Large vehicles use 3 cars/container"
+  },
+  "calculation": {
+    "container_total_usd": "base_container_usd + to_odessa_addon_usd",
+    "logistics_per_car_usd": "container_total_usd / cars_per_container"
+  }
+}

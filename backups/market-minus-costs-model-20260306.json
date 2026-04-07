@@ -1,0 +1,173 @@
+{
+  "assumptions": {
+    "routes": "Klaipeda/Mostyska/Odessa as locked",
+    "cars_per_container": 3,
+    "broker_ev": 150,
+    "broker_hybrid": 350,
+    "unload": {
+      "Klaipeda": 270,
+      "Mostyska": 230,
+      "Odessa": 200
+    },
+    "tax_ev": "VAT 20% + excise (battery*1)",
+    "tax_hybrid": "duty 10% + VAT 20% over (buy+log+duty)"
+  },
+  "results": [
+    {
+      "model": "BYD Seagull",
+      "sell_range_usd": [
+        13197,
+        16520
+      ],
+      "buy_benchmark_usd": [
+        9680,
+        12000
+      ],
+      "scenarios": [
+        {
+          "route": "Klaipeda",
+          "margin_range_usd": [
+            -3781,
+            2326
+          ],
+          "breakeven_buy_range_usd": [
+            8849,
+            11618
+          ],
+          "source_vs_breakeven_pct": 5.9
+        },
+        {
+          "route": "Mostyska",
+          "margin_range_usd": [
+            -4213,
+            1894
+          ],
+          "breakeven_buy_range_usd": [
+            8489,
+            11258
+          ],
+          "source_vs_breakeven_pct": 9.8
+        },
+        {
+          "route": "Odessa",
+          "margin_range_usd": [
+            -4311,
+            1796
+          ],
+          "breakeven_buy_range_usd": [
+            8408,
+            11177
+          ],
+          "source_vs_breakeven_pct": 10.7
+        }
+      ]
+    },
+    {
+      "model": "BYD Dolphin",
+      "sell_range_usd": [
+        20430,
+        22962
+      ],
+      "buy_benchmark_usd": [
+        12160,
+        17090
+      ],
+      "scenarios": [
+        {
+          "route": "Klaipeda",
+          "margin_range_usd": [
+            -2662,
+            5786
+          ],
+          "breakeven_buy_range_usd": [
+            14872,
+            16982
+          ],
+          "source_vs_breakeven_pct": -8.2
+        },
+        {
+          "route": "Mostyska",
+          "margin_range_usd": [
+            -3094,
+            5354
+          ],
+          "breakeven_buy_range_usd": [
+            14512,
+            16622
+          ],
+          "source_vs_breakeven_pct": -6.0
+        },
+        {
+          "route": "Odessa",
+          "margin_range_usd": [
+            -3192,
+            5256
+          ],
+          "breakeven_buy_range_usd": [
+            14430,
+            16540
+          ],
+          "source_vs_breakeven_pct": -5.6
+        }
+      ]
+    },
+    {
+      "model": "Xiaomi SU7",
+      "sell_range_usd": [
+        33715,
+        82992
+      ],
+      "buy_benchmark_usd": [
+        30800,
+        44300
+      ],
+      "scenarios": [
+        {
+          "route": "Klaipeda",
+          "margin_range_usd": [
+            -22058,
+            43419
+          ],
+          "breakeven_buy_range_usd": [
+            25918,
+            66982
+          ],
+          "source_vs_breakeven_pct": -19.2
+        },
+        {
+          "route": "Mostyska",
+          "margin_range_usd": [
+            -22490,
+            42987
+          ],
+          "breakeven_buy_range_usd": [
+            25558,
+            66622
+          ],
+          "source_vs_breakeven_pct": -18.5
+        },
+        {
+          "route": "Odessa",
+          "margin_range_usd": [
+            -22588,
+            42889
+          ],
+          "breakeven_buy_range_usd": [
+            25477,
+            66541
+          ],
+          "source_vs_breakeven_pct": -18.4
+        }
+      ]
+    },
+    {
+      "model": "AITO M7",
+      "sell_range_usd": null,
+      "buy_benchmark_usd": [
+        35060,
+        46280
+      ],
+      "result": "No market retail price in current lock; margin calc not possible."
+    }
+  ]
+}

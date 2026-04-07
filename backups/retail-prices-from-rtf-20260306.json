@@ -1,0 +1,405 @@
+{
+  "entries_count": 280,
+  "summary": {
+    "BYD Seagull": {
+      "count": 5,
+      "usd_min": 13197,
+      "usd_max": 16520,
+      "uah_min": 587250,
+      "uah_max": 735150
+    },
+    "BYD Dolphin": {
+      "count": 5,
+      "usd_min": 20430,
+      "usd_max": 22962,
+      "uah_min": 909150,
+      "uah_max": 1021815
+    },
+    "BYD Yuan Up": {
+      "count": 5,
+      "usd_min": 21007,
+      "usd_max": 21408,
+      "uah_min": 934815,
+      "uah_max": 952650
+    },
+    "Xiaomi SU7": {
+      "count": 8,
+      "usd_min": 33715,
+      "usd_max": 82992,
+      "uah_min": 1500315,
+      "uah_max": 3693150
+    },
+    "Zeekr 001": {
+      "count": 12,
+      "usd_min": 44966,
+      "usd_max": 63051,
+      "uah_min": 2001000,
+      "uah_max": 2805750
+    },
+    "BYD Song Plus DM-i": {
+      "count": 1,
+      "usd_min": 29033,
+      "usd_max": 29033,
+      "uah_min": 1291950,
+      "uah_max": 1291950
+    },
+    "Lixiang L6": {
+      "count": 1,
+      "usd_min": 49561,
+      "usd_max": 49561,
+      "uah_min": 2205450,
+      "uah_max": 2205450
+    },
+    "AITO M7": null
+  },
+  "matches": {
+    "BYD Seagull": [
+      {
+        "idx": 1,
+        "brand": "BYD",
+        "model_short": "Seagull EV",
+        "model_full": "Seagull EV 2025",
+        "uah": 587250,
+        "usd": 13197,
+        "raw": "1. BYD — Seagull EV — Seagull EV 2025 — 587 250 грн ($13 197)"
+      },
+      {
+        "idx": 2,
+        "brand": "BYD",
+        "model_short": "Seagull EV 405KM Flying Edition",
+        "model_full": "Seagull EV 405KM Flying Edition 2025, Arctic Blue, синий салон",
+        "uah": 735150,
+        "usd": 16520,
+        "raw": "2. BYD — Seagull EV 405KM Flying Edition — Seagull EV 405KM Flying Edition 2025, Arctic Blue, синий салон — 735 150 грн ($16 520)"
+      },
+      {
+        "idx": 3,
+        "brand": "BYD",
+        "model_short": "Seagull EV 405KM Flying Edition",
+        "model_full": "Seagull EV 405KM Flying Edition 2025, Peach Powder, розовый салон",
+        "uah": 735150,
+        "usd": 16520,
+        "raw": "3. BYD — Seagull EV 405KM Flying Edition — Seagull EV 405KM Flying Edition 2025, Peach Powder, розовый салон — 735 150 грн ($16 520)"
+      },
+      {
+        "idx": 4,
+        "brand": "BYD",
+        "model_short": "Seagull EV 405KM Flying Edition",
+        "model_full": "Seagull EV 405KM Flying Edition 2025, Warm White, синий салон",
+        "uah": 735150,
+        "usd": 16520,
+        "raw": "4. BYD — Seagull EV 405KM Flying Edition — Seagull EV 405KM Flying Edition 2025, Warm White, синий салон — 735 150 грн ($16 520)"
+      },
+      {
+        "idx": 5,
+        "brand": "BYD",
+        "model_short": "Seagull EV 405KM Flying Edition",
+        "model_full": "Seagull EV 405KM Flying Edition 2025, Polar Night Black, синий салон",
+        "uah": 735150,
+        "usd": 16520,
+        "raw": "5. BYD — Seagull EV 405KM Flying Edition — Seagull EV 405KM Flying Edition 2025, Polar Night Black, синий салон — 735 150 грн ($16 520)"
+      }
+    ],
+    "BYD Dolphin": [
+      {
+        "idx": 10,
+        "brand": "BYD",
+        "model_short": "Dolphin EV",
+        "model_full": "Dolphin EV 2025",
+        "uah": 909150,
+        "usd": 20430,
+        "raw": "10. BYD — Dolphin EV — Dolphin EV 2025 — 909 150 грн ($20 430)"
+      },
+      {
+        "idx": 13,
+        "brand": "BYD",
+        "model_short": "Dolphin EV 520KM Knight Edition",
+        "model_full": "Dolphin EV 520KM Knight Edition 2025, Cheese Yellow, бежевый салон",
+        "uah": 934815,
+        "usd": 21007,
+        "raw": "13. BYD — Dolphin EV 520KM Knight Edition — Dolphin EV 520KM Knight Edition 2025, Cheese Yellow, бежевый салон — 934 815 грн ($21 007)"
+      },
+      {
+        "idx": 22,
+        "brand": "BYD",
+        "model_short": "Dolphin EV 520KM Knight Edition",
+        "model_full": "Dolphin EV 520KM Knight Edition 2025, Atlantis Grey, черный салон",
+        "uah": 1021815,
+        "usd": 22962,
+        "raw": "22. BYD — Dolphin EV 520KM Knight Edition — Dolphin EV 520KM Knight Edition 2025, Atlantis Grey, черный салон — 1 021 815 грн ($22 962)"
+      },
+      {
+        "idx": 23,
+        "brand": "BYD",
+        "model_short": "Dolphin EV 410KM Fashion Edition",
+        "model_full": "Dolphin EV 410KM Fashion Edition 2025, Atlantis Grey, черный салон",
+        "uah": 1021815,
+        "usd": 22962,
+        "raw": "23. BYD — Dolphin EV 410KM Fashion Edition — Dolphin EV 410KM Fashion Edition 2025, Atlantis Grey, черный салон — 1 021 815 грн ($22 962)"
+      },
+      {
+        "idx": 24,
+        "brand": "BYD",
+        "model_short": "Dolphin EV 410KM Fashion Edition",
+        "model_full": "Dolphin EV 410KM Fashion Edition 2025, Sea Shell Powder, бежевый салон",
+        "uah": 1021815,
+        "usd": 22962,
+        "raw": "24. BYD — Dolphin EV 410KM Fashion Edition — Dolphin EV 410KM Fashion Edition 2025, Sea Shell Powder, бежевый салон — 1 021 815 грн ($22 962)"
+      }
+    ],
+    "BYD Yuan Up": [
+      {
+        "idx": 11,
+        "brand": "BYD",
+        "model_short": "Yuan Up EV 401KM Leading",
+        "model_full": "Yuan Up EV 401KM Leading Model 2025, Cool Grey, бежевый салон",
+        "uah": 934815,
+        "usd": 21007,
+        "raw": "11. BYD — Yuan Up EV 401KM Leading — Yuan Up EV 401KM Leading Model 2025, Cool Grey, бежевый салон — 934 815 грн ($21 007)"
+      },
+      {
+        "idx": 12,
+        "brand": "BYD",
+        "model_short": "Yuan Up EV 401KM Leading",
+        "model_full": "Yuan Up EV 401KM Leading Model 2025, White, бежевый салон",
+        "uah": 934815,
+        "usd": 21007,
+        "raw": "12. BYD — Yuan Up EV 401KM Leading — Yuan Up EV 401KM Leading Model 2025, White, бежевый салон — 934 815 грн ($21 007)"
+      },
+      {
+        "idx": 14,
+        "brand": "BYD",
+        "model_short": "Yuan Up EV",
+        "model_full": "Yuan Up EV 2025",
+        "uah": 934815,
+        "usd": 21007,
+        "raw": "14. BYD — Yuan Up EV — Yuan Up EV 2025 — 934 815 грн ($21 007)"
+      },
+      {
+        "idx": 15,
+        "brand": "BYD",
+        "model_short": "Yuan Up EV 401KM Beyond",
+        "model_full": "Yuan Up EV 401KM Beyond Model 2025, White, бежевый салон",
+        "uah": 952650,
+        "usd": 21408,
+        "raw": "15. BYD — Yuan Up EV 401KM Beyond — Yuan Up EV 401KM Beyond Model 2025, White, бежевый салон — 952 650 грн ($21 408)"
+      },
+      {
+        "idx": 16,
+        "brand": "BYD",
+        "model_short": "Yuan Up EV 401KM Beyond",
+        "model_full": "Yuan Up EV 401KM Beyond Model 2025, Cool Grey, бежевый салон",
+        "uah": 952650,
+        "usd": 21408,
+        "raw": "16. BYD — Yuan Up EV 401KM Beyond — Yuan Up EV 401KM Beyond Model 2025, Cool Grey, бежевый салон — 952 650 грн ($21 408)"
+      }
+    ],
+    "Xiaomi SU7": [
+      {
+        "idx": 110,
+        "brand": "Xiaomi",
+        "model_short": "SU7 EV",
+        "model_full": "SU7 EV 2025",
+        "uah": 1500315,
+        "usd": 33715,
+        "raw": "110. Xiaomi — SU7 EV — SU7 EV 2025 — 1 500 315 грн ($33 715)"
+      },
+      {
+        "idx": 114,
+        "brand": "Xiaomi",
+        "model_short": "SU7 EV 2WD 73",
+        "model_full": "SU7 EV 2WD 73,6 кВт 2025, Jane Eyre, бежевый салон",
+        "uah": 1500315,
+        "usd": 33715,
+        "raw": "114. Xiaomi — SU7 EV 2WD 73 — SU7 EV 2WD 73,6 кВт 2025, Jane Eyre, бежевый салон — 1 500 315 грн ($33 715)"
+      },
+      {
+        "idx": 178,
+        "brand": "Xiaomi",
+        "model_short": "SU7 Max EV 4WD 101",
+        "model_full": "SU7 Max EV 4WD 101 кВт 2025, Pearl White, черный салон",
+        "uah": 2083650,
+        "usd": 46824,
+        "raw": "178. Xiaomi — SU7 Max EV 4WD 101 — SU7 Max EV 4WD 101 кВт 2025, Pearl White, черный салон — 2 083 650 грн ($46 824)"
+      },
+      {
+        "idx": 179,
+        "brand": "Xiaomi",
+        "model_short": "SU7 Max EV 4WD 101",
+        "model_full": "SU7 Max EV 4WD 101 кВт 2025, Diamond Black, черный салон",
+        "uah": 2083650,
+        "usd": 46824,
+        "raw": "179. Xiaomi — SU7 Max EV 4WD 101 — SU7 Max EV 4WD 101 кВт 2025, Diamond Black, черный салон — 2 083 650 грн ($46 824)"
+      },
+      {
+        "idx": 180,
+        "brand": "Xiaomi",
+        "model_short": "SU7 Max EV 4WD 101",
+        "model_full": "SU7 Max EV 4WD 101 кВт 2025, Olive Green, серый салон",
+        "uah": 2083650,
+        "usd": 46824,
+        "raw": "180. Xiaomi — SU7 Max EV 4WD 101 — SU7 Max EV 4WD 101 кВт 2025, Olive Green, серый салон — 2 083 650 грн ($46 824)"
+      },
+      {
+        "idx": 313,
+        "brand": "Xiaomi",
+        "model_short": "SU7 Ultra EV 4WD 93",
+        "model_full": "SU7 Ultra EV 4WD 93,7 кВт 2025, Lightning Yellow, черный салон",
+        "uah": 3693150,
+        "usd": 82992,
+        "raw": "313. Xiaomi — SU7 Ultra EV 4WD 93 — SU7 Ultra EV 4WD 93,7 кВт 2025, Lightning Yellow, черный салон — 3 693 150 грн ($82 992)"
+      },
+      {
+        "idx": 314,
+        "brand": "Xiaomi",
+        "model_short": "SU7 Ultra EV 4WD 93",
+        "model_full": "SU7 Ultra EV 4WD 93,7 кВт 2025, Lightning Yellow, желтый салон",
+        "uah": 3693150,
+        "usd": 82992,
+        "raw": "314. Xiaomi — SU7 Ultra EV 4WD 93 — SU7 Ultra EV 4WD 93,7 кВт 2025, Lightning Yellow, желтый салон — 3 693 150 грн ($82 992)"
+      },
+      {
+        "idx": 315,
+        "brand": "Xiaomi",
+        "model_short": "SU7 Ultra EV 4WD 93",
+        "model_full": "SU7 Ultra EV 4WD 93,7 кВт 2025, Parrot Green, черный салон",
+        "uah": 3693150,
+        "usd": 82992,
+        "raw": "315. Xiaomi — SU7 Ultra EV 4WD 93 — SU7 Ultra EV 4WD 93,7 кВт 2025, Parrot Green, черный салон — 3 693 150 грн ($82 992)"
+      }
+    ],
+    "Zeekr 001": [
+      {
+        "idx": 173,
+        "brand": "ZEEKR",
+        "model_short": "001",
+        "model_full": "001 2025",
+        "uah": 2001000,
+        "usd": 44966,
+        "raw": "173. ZEEKR — 001 — 001 2025 — 2 001 000 грн ($44 966)"
+      },
+      {
+        "idx": 174,
+        "brand": "ZEEKR",
+        "model_short": "001 YOU Edition 100kWh 4WD",
+        "model_full": "001 YOU Edition 100kWh 4WD 2025, Midnight White, серебристо-серый салон",
+        "uah": 2001000,
+        "usd": 44966,
+        "raw": "174. ZEEKR — 001 YOU Edition 100kWh 4WD — 001 YOU Edition 100kWh 4WD 2025, Midnight White, серебристо-серый салон — 2 001 000 грн ($44 966)"
+      },
+      {
+        "idx": 175,
+        "brand": "ZEEKR",
+        "model_short": "001 YOU Edition 100kWh 4WD",
+        "model_full": "001 YOU Edition 100kWh 4WD 2025, Polar Night Black, серебристо-серый салон",
+        "uah": 2001000,
+        "usd": 44966,
+        "raw": "175. ZEEKR — 001 YOU Edition 100kWh 4WD — 001 YOU Edition 100kWh 4WD 2025, Polar Night Black, серебристо-серый салон — 2 001 000 грн ($44 966)"
+      },
+      {
+        "idx": 176,
+        "brand": "ZEEKR",
+        "model_short": "001 YOU Edition 100kWh 4WD",
+        "model_full": "001 YOU Edition 100kWh 4WD 2025, Laser Grey, серебристо-серый салон",
+        "uah": 2001000,
+        "usd": 44966,
+        "raw": "176. ZEEKR — 001 YOU Edition 100kWh 4WD — 001 YOU Edition 100kWh 4WD 2025, Laser Grey, серебристо-серый салон — 2 001 000 грн ($44 966)"
+      },
+      {
+        "idx": 177,
+        "brand": "ZEEKR",
+        "model_short": "001 YOU Edition 100kWh 4WD",
+        "model_full": "001 YOU Edition 100kWh 4WD 2025, Morning Mist Rice, серебристо-серый салон",
+        "uah": 2001000,
+        "usd": 44966,
+        "raw": "177. ZEEKR — 001 YOU Edition 100kWh 4WD — 001 YOU Edition 100kWh 4WD 2025, Morning Mist Rice, серебристо-серый салон — 2 001 000 грн ($44 966)"
+      },
+      {
+        "idx": 218,
+        "brand": "ZEEKR",
+        "model_short": "001",
+        "model_full": "001 2026",
+        "uah": 2214150,
+        "usd": 49756,
+        "raw": "218. ZEEKR — 001 — 001 2026 — 2 214 150 грн ($49 756)"
+      },
+      {
+        "idx": 237,
+        "brand": "ZEEKR",
+        "model_short": "001 Max 95kWh 4WD",
+        "model_full": "001 Max 95kWh 4WD 2026, Starry Sky Grey, синий салон",
+        "uah": 2344650,
+        "usd": 52689,
+        "raw": "237. ZEEKR — 001 Max 95kWh 4WD — 001 Max 95kWh 4WD 2026, Starry Sky Grey, синий салон — 2 344 650 грн ($52 689)"
+      },
+      {
+        "idx": 238,
+        "brand": "ZEEKR",
+        "model_short": "001 Max 95kWh 4WD",
+        "model_full": "001 Max 95kWh 4WD 2026, Dark Night Purple, синий салон",
+        "uah": 2344650,
+        "usd": 52689,
+        "raw": "238. ZEEKR — 001 Max 95kWh 4WD — 001 Max 95kWh 4WD 2026, Dark Night Purple, синий салон — 2 344 650 грн ($52 689)"
+      },
+      {
+        "idx": 269,
+        "brand": "ZEEKR",
+        "model_short": "001 Ultra Plus 103kWh 4WD",
+        "model_full": "001 Ultra Plus 103kWh 4WD 2026, Starry Sky Grey, коричневый салон",
+        "uah": 2779650,
+        "usd": 62464,
+        "raw": "269. ZEEKR — 001 Ultra Plus 103kWh 4WD — 001 Ultra Plus 103kWh 4WD 2026, Starry Sky Grey, коричневый салон — 2 779 650 грн ($62 464)"
+      },
+      {
+        "idx": 270,
+        "brand": "ZEEKR",
+        "model_short": "001 Ultra Plus 103kWh 4WD",
+        "model_full": "001 Ultra Plus 103kWh 4WD 2026, Dark Night Purple, синій салон",
+        "uah": 2779650,
+        "usd": 62464,
+        "raw": "270. ZEEKR — 001 Ultra Plus 103kWh 4WD — 001 Ultra Plus 103kWh 4WD 2026, Dark Night Purple, синій салон — 2 779 650 грн ($62 464)"
+      },
+      {
+        "idx": 272,
+        "brand": "ZEEKR",
+        "model_short": "001 Ultra Plus 103kWh 4WD",
+        "model_full": "001 Ultra Plus 103kWh 4WD 2026, Hunting Green, светло-зеленый салон",
+        "uah": 2805750,
+        "usd": 63051,
+        "raw": "272. ZEEKR — 001 Ultra Plus 103kWh 4WD — 001 Ultra Plus 103kWh 4WD 2026, Hunting Green, светло-зеленый салон — 2 805 750 грн ($63 051)"
+      },
+      {
+        "idx": 274,
+        "brand": "ZEEKR",
+        "model_short": "001 Ultra Plus 103kWh 4WD",
+        "model_full": "001 Ultra Plus 103kWh 4WD 2026, Midnight White, синий салон",
+        "uah": 2805750,
+        "usd": 63051,
+        "raw": "274. ZEEKR — 001 Ultra Plus 103kWh 4WD — 001 Ultra Plus 103kWh 4WD 2026, Midnight White, синий салон — 2 805 750 грн ($63 051)"
+      }
+    ],
+    "BYD Song Plus DM-i": [
+      {
+        "idx": 71,
+        "brand": "BYD",
+        "model_short": "Song PLUS DM-i 160KM Flagship",
+        "model_full": "Song PLUS DM-i160KM Flagship 2025, Time Grey, бежевый салон",
+        "uah": 1291950,
+        "usd": 29033,
+        "raw": "71. BYD — Song PLUS DM-i 160KM Flagship — Song PLUS DM-i160KM Flagship 2025, Time Grey, бежевый салон — 1 291 950 грн ($29 033)"
+      }
+    ],
+    "Lixiang L6": [
+      {
+        "idx": 217,
+        "brand": "Lixiang",
+        "model_short": "L6 Pro",
+        "model_full": "L6 Pro 2026, Elephant Grey, коричневый салон",
+        "uah": 2205450,
+        "usd": 49561,
+        "raw": "217. Lixiang — L6 Pro — L6 Pro 2026, Elephant Grey, коричневый салон — 2 205 450 грн ($49 561)"
+      }
+    ],
+    "AITO M7": []
+  }
+}

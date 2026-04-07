@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-03-06",
+  "rows": [
+    {
+      "model": "BYD Seagull",
+      "deckSell": 14859,
+      "range": [
+        14999,
+        16900
+      ],
+      "mid": 15950,
+      "delta": 1091,
+      "deltaPct": 7.3,
+      "deckMargin": -1094,
+      "marginWithAutoria": -3,
+      "change": 1091,
+      "better": true
+    },
+    {
+      "model": "BYD Dolphin",
+      "deckSell": 21696,
+      "range": [
+        19000,
+        24490
+      ],
+      "mid": 21745,
+      "delta": 49,
+      "deltaPct": 0.2,
+      "deckMargin": -89,
+      "marginWithAutoria": -40,
+      "change": 49,
+      "better": true
+    },
+    {
+      "model": "BYD Yuan Up",
+      "deckSell": 21208,
+      "range": [
+        17500,
+        20500
+      ],
+      "mid": 19000,
+      "delta": -2208,
+      "deltaPct": -10.4,
+      "deckMargin": 4440,
+      "marginWithAutoria": 2232,
+      "change": -2208,
+      "better": false
+    },
+    {
+      "model": "Xiaomi SU7",
+      "deckSell": 58354,
+      "range": [
+        47900,
+        52500
+      ],
+      "mid": 50200,
+      "delta": -8154,
+      "deltaPct": -14,
+      "deckMargin": 10511,
+      "marginWithAutoria": 2357,
+      "change": -8154,
+      "better": false
+    },
+    {
+      "model": "Zeekr 001",
+      "deckSell": 54009,
+      "range": [
+        45999,
+        52500
+      ],
+      "mid": 49250,
+      "delta": -4759,
+      "deltaPct": -8.8,
+      "deckMargin": -25731,
+      "marginWithAutoria": -30490,
+      "change": -4759,
+      "better": false
+    },
+    {
+      "model": "BYD Song Plus DM-i",
+      "deckSell": 29033,
+      "range": [
+        26900,
+        28585
+      ],
+      "mid": 27743,
+      "delta": -1290,
+      "deltaPct": -4.4,
+      "deckMargin": -107,
+      "marginWithAutoria": -1397,
+      "change": -1290,
+      "better": false
+    },
+    {
+      "model": "Lixiang L6",
+      "deckSell": 49561,
+      "range": [
+        46899,
+        52700
+      ],
+      "mid": 49800,
+      "delta": 239,
+      "deltaPct": 0.5,
+      "deckMargin": -5253,
+      "marginWithAutoria": -5014,
+      "change": 239,
+      "better": true
+    },
+    {
+      "model": "AITO M7",
+      "deckSell": 43450,
+      "range": [
+        49900,
+        51900
+      ],
+      "mid": 50900,
+      "delta": 7450,
+      "deltaPct": 17.1,
+      "deckMargin": -17436,
+      "marginWithAutoria": -9986,
+      "change": 7450,
+      "better": true
+    }
+  ]
+}

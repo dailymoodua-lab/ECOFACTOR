@@ -1,0 +1,80 @@
+src/components/v2/slides/EconomicsSlides.tsx:24:              <ResponsiveContainer width="100%" height="100%">
+src/components/v2/slides/EconomicsSlides.tsx:41:              <p className="text-2xl font-bold text-pres-dark">$<AnimatedCounter target={car.totalCost} /></p>
+src/components/v2/slides/EconomicsSlides.tsx:45:              <p className="text-2xl font-bold text-pres-teal">$<AnimatedCounter target={car.sellPrice} /></p>
+src/components/v2/slides/EconomicsSlides.tsx:47:            <GlassCard className="p-4" style={{ borderLeft: '3px solid hsl(37 92% 55%)' }}>
+src/components/v2/slides/EconomicsSlides.tsx:50:                $<AnimatedCounter target={car.margin} /> <span className="text-sm">({car.marginPercent}%)</span>
+src/components/v2/slides/OperationsSlides.tsx:5:import { CAPITAL_ALLOCATION, TRANSIT, CONTAINER } from '@/data/presentationData';
+src/components/v2/slides/OperationsSlides.tsx:15:          <ResponsiveContainer width="100%" height="100%">
+src/components/v2/slides/OperationsSlides.tsx:17:              <Pie data={CAPITAL_ALLOCATION} innerRadius={55} outerRadius={90} dataKey="value" paddingAngle={3} animationDuration={1500}>
+src/components/v2/slides/OperationsSlides.tsx:18:                {CAPITAL_ALLOCATION.map((e, i) => <Cell key={i} fill={e.color} />)}
+src/components/v2/slides/OperationsSlides.tsx:26:          {CAPITAL_ALLOCATION.map((a, i) => (
+src/components/v2/slides/OperationsSlides.tsx:80:          { icon: '📥', title: 'Поступление', desc: 'Партия 10–15 авто каждые 60–80 дней', metric: '15', unit: 'авто' },
+src/components/v2/slides/OperationsSlides.tsx:81:          { icon: '📦', title: 'На складе', desc: 'Средний остаток 5–10 автомобилей', metric: '7', unit: 'авто' },
+src/components/v2/slides/OperationsSlides.tsx:82:          { icon: '📤', title: 'Продажа', desc: 'Средний срок продажи 15–30 дней', metric: '22', unit: 'дня' },
+src/components/v2/slides/OperationsSlides.tsx:89:              <p className="text-2xl font-bold text-pres-blue mt-3"><AnimatedCounter target={Number(w.metric)} /> <span className="text-xs text-pres-gray">{w.unit}</span></p>
+src/components/v2/slides/OperationsSlides.tsx:106:        {TRANSIT.map((t, i) => (
+src/components/v2/slides/OperationsSlides.tsx:121:        <p className="text-sm text-pres-gray">Общий срок: <span className="font-bold text-pres-dark">60–80 дней</span> от закупки до склада</p>
+src/components/v2/slides/OperationsSlides.tsx:133:      {TRANSIT.map((t, i) => (
+src/components/v2/slides/OperationsSlides.tsx:142:        <span className="text-xl font-bold text-pres-dark"><AnimatedCounter target={70} /> дней</span>
+src/components/v2/slides/OperationsSlides.tsx:148:/* ── 11: CONTAINER MODEL ── */
+src/components/v2/slides/OperationsSlides.tsx:191:          <p className="text-3xl font-bold text-pres-dark mt-1">$<AnimatedCounter target={CONTAINER.cost} /></p>
+src/components/v2/slides/OperationsSlides.tsx:198:          <p className="text-3xl font-bold text-pres-teal mt-1">≈ $<AnimatedCounter target={CONTAINER.perCar} /></p>
+src/components/v2/slides/OperationsSlides.tsx:218:        <p className="text-3xl font-bold text-pres-dark mt-1">$<AnimatedCounter target={1300} /></p>
+src/components/v2/slides/ProductSlides.tsx:19:    ...(isEV ? [] : [{ label: 'Пошлина 10%', value: `$${duty.toLocaleString()}` }]),
+src/components/v2/slides/ProductSlides.tsx:20:    { label: `НДС 20%`, value: `$${nds.toLocaleString()}` },
+src/data/presentationData.ts:5:  buyPrice: number;
+src/data/presentationData.ts:6:  sellPrice: number;
+src/data/presentationData.ts:17:const LOGISTICS_PER_CAR = 1300;
+src/data/presentationData.ts:19:function calcEV(buy: number, log: number, battery: number) {
+src/data/presentationData.ts:34:  const log = LOGISTICS_PER_CAR;
+src/data/presentationData.ts:43:  makeCar({ name: 'BYD Seagull', brand: 'BYD', type: 'ev', buyPrice: 9500, sellPrice: 15500, battery: 38, segment: 'A-class' }),
+src/data/presentationData.ts:44:  makeCar({ name: 'BYD Dolphin', brand: 'BYD', type: 'ev', buyPrice: 14000, sellPrice: 22500, battery: 44, segment: 'B-class' }),
+src/data/presentationData.ts:45:  makeCar({ name: 'BYD Yuan Up', brand: 'BYD', type: 'ev', buyPrice: 12000, sellPrice: 19500, battery: 50, segment: 'B-SUV' }),
+src/data/presentationData.ts:46:  makeCar({ name: 'Xiaomi SU7', brand: 'Xiaomi', type: 'ev', buyPrice: 22000, sellPrice: 35000, battery: 73, segment: 'D-sedan' }),
+src/data/presentationData.ts:47:  makeCar({ name: 'Zeekr 001', brand: 'Zeekr', type: 'ev', buyPrice: 28000, sellPrice: 45000, battery: 100, segment: 'E-class' }),
+src/data/presentationData.ts:51:  makeCar({ name: 'BYD Song Plus DM-i', brand: 'BYD', type: 'hybrid', buyPrice: 16000, sellPrice: 26500, engine: 1.5, segment: 'C-SUV' }),
+src/data/presentationData.ts:52:  makeCar({ name: 'Lixiang L6', brand: 'Lixiang', type: 'hybrid', buyPrice: 25000, sellPrice: 40000, engine: 1.5, segment: 'D-SUV' }),
+src/data/presentationData.ts:53:  makeCar({ name: 'AITO M7', brand: 'Huawei/AITO', type: 'hybrid', buyPrice: 28000, sellPrice: 44000, engine: 1.5, segment: 'D-SUV' }),
+src/data/presentationData.ts:58:export const CONTAINER = { cost: 3500, cars: 3, perCar: Math.round(3500 / 3) };
+src/data/presentationData.ts:60:export const TRANSIT = [
+src/data/presentationData.ts:67:export const CAPITAL_ALLOCATION = [
+src/data/presentationData.ts:68:  { name: 'Машины в обороте', value: 65, color: '#3B82F6' },
+src/data/presentationData.ts:69:  { name: 'Машины в пути', value: 15, color: '#8B5CF6' },
+src/data/presentationData.ts:70:  { name: 'Тест-драйв парк', value: 10, color: '#0EA5E9' },
+src/data/presentationData.ts:71:  { name: 'Быстрый склад', value: 5, color: '#10B981' },
+src/data/presentationData.ts:72:  { name: 'Резерв', value: 5, color: '#F59E0B' },
+src/components/v2/slides/IntroSlides.tsx:17:          Инвестиционная модель товарного оборота с доходностью 20–27% годовых
+src/components/v2/slides/IntroSlides.tsx:22:          <GlassCard className="px-6 py-4 text-center"><p className="text-xs text-pres-gray">ROI</p><p className="text-2xl font-bold text-pres-teal">20–27%</p></GlassCard>
+src/components/v2/slides/IntroSlides.tsx:24:          <GlassCard className="px-6 py-4 text-center"><p className="text-xs text-pres-gray">Цикл оборота</p><p className="text-2xl font-bold text-pres-gold">60–80 дней</p></GlassCard>
+src/components/v2/slides/IntroSlides.tsx:66:      <p className="text-center text-sm text-pres-gray mt-6">Капитал оборачивается каждые 60–80 дней, генерируя стабильную прибыль</p>
+src/components/v2/slides/IntroSlides.tsx:78:        { label: 'Рост EV рынка в ЕС, %', value: 37, suffix: '%', color: 'text-pres-blue' },
+src/components/v2/slides/IntroSlides.tsx:79:        { label: 'Доля китайских EV, %', value: 25, suffix: '%', color: 'text-pres-teal' },
+src/components/v2/slides/IntroSlides.tsx:80:        { label: 'Экономия vs европейские', value: 40, suffix: '%', color: 'text-pres-gold' },
+src/components/v2/slides/IntroSlides.tsx:81:        { label: 'Спрос на доступные EV', value: 92, suffix: '%', color: 'text-pres-blue' },
+src/components/v2/slides/IntroSlides.tsx:86:              <AnimatedCounter target={m.value} suffix={m.suffix} />
+src/components/v2/slides/StrategyFinanceSlides.tsx:15:          <p className="font-bold text-pres-dark text-lg">5–10 автомобилей</p>
+src/components/v2/slides/StrategyFinanceSlides.tsx:18:            {['Конверсия тест-драйв → покупка: 35–45%', 'Средний срок решения: 3–5 дней', 'Парк ротируется → после 3 мес продаётся'].map(t => (
+src/components/v2/slides/StrategyFinanceSlides.tsx:51:                <p className="text-2xl font-bold text-pres-blue"><AnimatedCounter target={g.count} /></p>
+src/components/v2/slides/StrategyFinanceSlides.tsx:62:        <p className="text-sm text-pres-gray">Общий буфер: <span className="font-bold text-pres-dark">5–7 авто</span> × средняя цена = <span className="font-bold text-pres-blue">$100–150K</span></p>
+src/components/v2/slides/StrategyFinanceSlides.tsx:88:        <p className="text-sm text-pres-gray">Всего в pipeline: <span className="font-bold text-pres-dark"><AnimatedCounter target={60} /> авто</span></p>
+src/components/v2/slides/StrategyFinanceSlides.tsx:143:  { name: 'Закупка авто', value: 2100000, pct: 70, color: '#3B82F6' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:144:  { name: 'Логистика', value: 300000, pct: 10, color: '#8B5CF6' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:145:  { name: 'Налоги/пошлины', value: 300000, pct: 10, color: '#F59E0B' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:146:  { name: 'Тест-драйв + склад', value: 150000, pct: 5, color: '#0EA5E9' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:147:  { name: 'Операционный резерв', value: 150000, pct: 5, color: '#10B981' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:157:          <ResponsiveContainer width="100%" height="100%">
+src/components/v2/slides/StrategyFinanceSlides.tsx:223:            <AnimatedCounter target={25} suffix="%" duration={2.5} />
+src/components/v2/slides/StrategyFinanceSlides.tsx:252:          <ResponsiveContainer width="100%" height="100%">
+src/components/v2/slides/StrategyFinanceSlides.tsx:254:              <CartesianGrid strokeDasharray="3 3" stroke="hsl(220 20% 97%)" />
+src/components/v2/slides/StrategyFinanceSlides.tsx:266:        <p className="text-sm text-pres-gray">Кумулятивная прибыль за год: <span className="font-bold text-pres-teal text-lg">$<AnimatedCounter target={760000} /></span></p>
+src/components/v2/slides/StrategyFinanceSlides.tsx:279:        { year: 'Год 1', cars: '150–200', revenue: '$4.5M', market: 'Украина', color: '#3B82F6' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:280:        { year: 'Год 2', cars: '400–500', revenue: '$12M', market: '+ Польша, Чехия', color: '#8B5CF6' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:281:        { year: 'Год 3', cars: '800–1000', revenue: '$25M+', market: '+ Германия, Румыния', color: '#10B981' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:307:        { title: 'Buyout', desc: 'Выкуп доли операционным партнёром на 3–5 год', icon: '🤝' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:308:        { title: 'Дивиденды', desc: 'Пассивный доход 20–27% годовых без выхода', icon: '💰' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:333:          { label: 'ROI', value: 25, suffix: '%', color: 'text-pres-teal' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:334:          { label: 'Авто/год', value: 200, suffix: '+', color: 'text-pres-blue' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:335:          { label: 'Прибыль/год', value: 760, prefix: '$', suffix: 'K', color: 'text-pres-gold' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:336:          { label: 'Оборот', value: 70, suffix: ' дней', color: 'text-pres-dark' },
+src/components/v2/slides/StrategyFinanceSlides.tsx:341:                <AnimatedCounter target={m.value} prefix={m.prefix} suffix={m.suffix} />
+src/components/v2/slides/StrategyFinanceSlides.tsx:351:            Проверенная модель с прозрачной unit-экономикой, минимальными рисками и доходностью 20–27% годовых.
